@@ -2,6 +2,22 @@
 
 Плагин переносит два WordPress Code Snippets в файловую структуру.
 
+## Структура
+
+- `urpet-education-snippets.php` — главный файл плагина и константы.
+- `includes/helpers.php` — общие ACF/section helpers.
+- `includes/education-common.php` — загрузчик общих компонентов.
+- `includes/direction-single-page.php` — загрузчик компонентов страницы направления.
+- `includes/components/assets.php` — подключение CSS/JS.
+- `includes/components/breadcrumbs.php` — шорткод `[education_breadcrumbs]`.
+- `includes/components/sidebar.php` — шорткод `[education_sidebar]`.
+- `includes/components/direction-cards.php` — шорткод `[direction_cards]`.
+- `includes/components/popup-search.php` — шорткод `[education_popup_search]`.
+- `includes/components/study-plan.php` — компонент учебного плана.
+- `includes/components/direction-single-page.php` — шорткод `[direction_single_page]`.
+- `assets/css/education.css` — стили плагина.
+- `assets/js/sidebar.js` — поведение сайдбара.
+
 ## Шорткоды
 
 - `[education_breadcrumbs]`
